@@ -49,6 +49,10 @@
 )
 
 (define-read-only (get-last-reading (sensor-id uint))
-  (get last-reading (unwrap! (map-get? sensors { sensor-id: sensor-id }) (err u404)))
+  (match (map-get? sensors { sensor-id: sensor-id })
+    sensor (match (get last-reading sensor)
+      reading (ok reading)
+      (err u404))
+    (err u404))
 )
 
