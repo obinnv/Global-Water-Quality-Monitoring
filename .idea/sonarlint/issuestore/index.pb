@@ -15,3 +15,5 @@ J
 tests/alert-system.test.ts,8/e/8e391e93aa3f06b22e9a76a21903bd68ac2f1c7b
 W
 'contracts/remediation-coordination.clar,9/c/9cd061e8c9e098ddcc42bc5d7dd3c3d55dadcfb2
+=
+Clarinet.toml,9/d/9d284ad9ceb4c6d6525244c8f2230e5943b9c9b2
