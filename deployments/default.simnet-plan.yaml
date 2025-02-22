@@ -50,13 +50,13 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: data-analysis
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/data-analysis.clar
-            clarity-version: 2
-        - emulated-contract-publish:
             contract-name: sensor-network
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/sensor-network.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: data-analysis
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/data-analysis.clar
             clarity-version: 2
       epoch: "2.5"
